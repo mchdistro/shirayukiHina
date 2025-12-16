@@ -1,0 +1,257 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "shirayukiHina-1.21.4",
+      "name": "연말 서버",
+      "description": "Minecraft 1.21.4 (Fabric v0.18.2)",
+      "icon": "https://github.com/mchdistro/shirayukiHina/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944281,
+            "MD5": "d841cf4350d061f67d7fecd5075b99c0",
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/net/fabricmc/fabric-loader/0.18.2/fabric-loader-0.18.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.18.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "d2014eaac9588827c722d89afa794a25",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/versions/1.21.4-fabric-0.18.2/1.21.4-fabric-0.18.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://github.com/mchdistro/shirayukiHina/raw/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.4@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561743,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/entityculling-fabric-1.9.4-mc1.21.4.jar",
+            "MD5": "749008a5a44fac1dcd5ab22848ee9c34"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.1.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107026,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/ferritecore-7.1.1-fabric.jar",
+            "MD5": "cddea62080b823c0c55f72408a0c3ffb"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104280,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/gtnick-fabric-1.21.4-2.0.4.jar",
+            "MD5": "e93e799b6aa1ce2c10d0be7500ec32f6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.3+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 596411,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.3+mc1.21.3.jar",
+            "MD5": "1ea89f847f8fbce1b5734ab746f7bcc5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mcrider:1.2.0 - 1.21.4@jar",
+          "name": "MCRider",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 290310,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/MCRider-1.2.0%20-%201.21.4.jar",
+            "MD5": "f7138b4fd80fffd5fe5d35e67fea6976"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.3+mc1.21.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 436498,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/modernfix-fabric-5.20.3+mc1.21.4.jar",
+            "MD5": "1bee2326edcced182b86154e44810971"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.7@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12212952,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.7.jar",
+            "MD5": "2be4bf54d48abb852b25964183148712"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "generated.fabricmod:tick sync:1.2.6 - 1.21.4@jar",
+          "name": "Tick Sync",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24489,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/Tick%20Sync-1.2.6%20-%201.21.4.jar",
+            "MD5": "39ac711a96169ea2e874939217278c66"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -245,7 +245,7 @@
           "name": "iris.properties",
           "type": "File",
           "artifact": {
-            "size": 315,
+            "size": 299,
             "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/files/config/iris.properties",
             "path": "config/iris.properties"
           }
@@ -258,6 +258,28 @@
             "size": 170,
             "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/files/options.txt",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/files/servers.dat",
+            "MD5": "2f040b258e5f005a94ab8eced0b00049",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "AstraLex_v93.0.zip",
+          "name": "AstraLex_v93.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3184524,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/files/shaderpacks/AstraLex_v93.0.zip",
+            "MD5": "021c95bd3d217b4a7e45997d5127285b",
+            "path": "shaderpacks/AstraLex_v93.0.zip"
           }
         },
         {

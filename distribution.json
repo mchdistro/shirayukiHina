@@ -13,7 +13,7 @@
       "description": "Minecraft 1.21.4 (Fabric v0.18.2)",
       "icon": "https://github.com/mchdistro/shirayukiHina/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "mc.gotiger.dev:20150",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -21,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "javaOptions": {
         "supported": "=>21",
         "suggestedMajor": 21,

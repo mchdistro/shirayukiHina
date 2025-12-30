@@ -151,6 +151,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.8+kotlin.2.3.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7618852,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+            "MD5": "964103287b72e606de845420d1a8cc57"
+          }
+        },
+        {
           "id": "generated.fabricmod:ferritecore:7.1.1@jar",
           "name": "FerriteCore",
           "type": "FabricMod",

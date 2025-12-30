@@ -241,6 +241,16 @@
           }
         },
         {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.3@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807977,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/Zoomify-2.14.2+1.21.3.jar",
+            "MD5": "3b501d83e685e5cc6c7a2e339145434a"
+          }
+        },
+        {
           "id": "iris.properties",
           "name": "iris.properties",
           "type": "File",

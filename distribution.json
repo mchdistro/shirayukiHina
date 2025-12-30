@@ -241,6 +241,16 @@
           }
         },
         {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.1+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1131102,
+            "url": "https://github.com/mchdistro/shirayukiHina/raw/main/servers/shirayukiHina-1.21.4/fabricmods/required/yet_another_config_lib_v3-3.8.1+1.21.4-fabric.jar",
+            "MD5": "910f0f6299d51bc8b868a7bf6d741272"
+          }
+        },
+        {
           "id": "dev.isxander:zoomify:2.14.2+1.21.3@jar",
           "name": "Zoomify",
           "type": "FabricMod",

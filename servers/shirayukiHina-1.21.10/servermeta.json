@@ -2,16 +2,16 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/shirayukiHina/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "연말 서버",
-    "description": "Minecraft 1.21.4 (Fabric v0.18.2)",
+    "name": "유니 3주년",
+    "description": "Minecraft 1.21.10 (Fabric v0.18.4)",
     "icon": "https://github.com/mchdistro/shirayukiHina/raw/main/server-icon.png",
-    "address": "mc.gotiger.dev:20150",
+    "address": "mc.gotiger.dev:20009",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": true,
     "javaOptions": {
       "supported": "=>21",
@@ -24,13 +24,13 @@
         }
       ],
       "ram": {
-        "minimum": 4096,
+        "minimum": 6144,
         "recommended": 8192
       }
     }
   },
   "fabric": {
-    "version": "0.18.2"
+    "version": "0.18.4"
   },
   "untrackedFiles": [
     {
